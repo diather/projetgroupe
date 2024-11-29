@@ -1,6 +1,5 @@
-// hello-world.ts
-const greet = (name: string): string => {
-    return `Hello, ${name}!`;
+const greet = (name: string, timeOfDay: string): string => {
+    return `Good ${timeOfDay}, ${name}!`;
 };
 
-console.log(greet("World"));
+console.log(greet("World", "morning"));
